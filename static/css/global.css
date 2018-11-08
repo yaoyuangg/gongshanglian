@@ -1,0 +1,38 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 95% !important;
+  }
+}
+@media (min-width: 992px){
+  .container {
+    width: 90% !important
+  }
+}
+.modal{
+  overflow: scroll !important;
+}
+.detailPage h1, h2, h3{
+  margin: 0 ;
+}
+html, body{
+  height: 100%;
+}
+.col-md-2{
+  text-align: right
+}
+  /* 复写bootstrap样式 */
+.row .form-control{
+  height: 40px;
+  border: 1px solid #dcdfe6;
+}
+.row{
+  line-height: 40px;
+}
+ /* 复写element样式 */
+.el-date-editor.el-input,
+.el-date-editor.el-input__inner{
+  width: 100% !important
+}
+.el-upload__input{
+  display: none !important
+}
